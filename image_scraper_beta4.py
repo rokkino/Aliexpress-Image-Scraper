@@ -66,7 +66,7 @@ while True:
     image_name_prefixes.append(user_image_name)
 
 if urls:
-    user_save_dir = 'C:/Users/Gian/Desktop/GuitarRio/Pics/Destroyer'
+    user_save_dir = 'ADD/YOUR/PATH'
     download_images(urls, user_save_dir, image_name_prefixes)
     print("Operation completed. Images downloaded.")
 else:
